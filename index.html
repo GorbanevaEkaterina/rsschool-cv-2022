@@ -4,24 +4,30 @@
 <head>
   <meta charset="utf-8">
   <title>My CV</title>
+  <link rel="icon" href="icon.jpg">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
  <header> 
    <nav>
-    <a href="#summary">Summary</a> 
-    <a href="#contacts">Contacts</a>
-    <a href="#skills">Skills</a>
-    <a href="#code">Code</a>
-    <a href="#projects">Projects</a>
-    <a href="#education">Education and qualifications</a>
-    <a href="#english">English</a>
+    <ul>
+    <li><a href="#summary">Summary</a></li> 
+    <li><a href="#contacts">Contacts</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#code">Code</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education and qualifications</a></li>
+    <li><a href="#english">English</a></li>
+  </ul>
   </nav>
 </header>
+<div class="main-container">
 <main>
   <h1>Gorbaneva Ekaterina</h1>
-  <img src="my photo.jpg" alt="my photo">
+  <div class="photo">
+  <img src="my photo.jpg" alt="my photo" width="320" height="240">
+  </div>
   <h2 id="summary">Summary:</h2>
   <p>I like programming.</p>
    <p>This is very interesting, because you need to constantly create and learn something new.</p>
@@ -47,6 +53,11 @@
   </ul>
   </div>
   <h2 id="code">Code:</h2>
+  <code>
+    <pre>
+    &lt;img src="my photo.jpg" alt="my photo"&gt;
+    </pre>
+  </code>
   <h2 id="projects">Projects:</h2>
   <a href="http://127.0.0.1:5500/rsschool-cv/index.html">My CV</a> 
   <h2 id="education">Education and qualifications</h2> 
@@ -63,6 +74,7 @@
   </ul>
   </div>
   </main>
+</div>
 <footer>
   <a href="https://github.com/GorbanevaEkaterina">Github</a>
 </footer>
