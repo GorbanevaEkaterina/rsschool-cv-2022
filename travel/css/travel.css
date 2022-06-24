@@ -75,7 +75,7 @@
     height: 3735px;
     left: 0px;
     top: 0px;
-    background-image: url(../img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.png);
+    background-image: url(../img/bg.png);
     background-repeat: no-repeat;
     
     /*background-size:cover ;*/
@@ -115,7 +115,7 @@
     margin: 0;
     padding: 20;
     list-style: none;
-   position: fixed;
+   /*position: fixed;*/
     justify-content: space-between;
     
   }
@@ -648,7 +648,10 @@ width: 1445px;
 height: 1270px;
 left: 0px;
 top: 2404px;
-/*background-image: url(../img/Rectangle\ 33.png);*/
+
+/*background-position: absolute;
+background-image: url(../img/Rectangle\ 33.png);
+background-repeat: no-repeat;*/
 
 /*background: rgba(255, 255, 255, 0.7);*/
 }
@@ -660,7 +663,7 @@ top: 2404px;
   height: 250px;
   left: 120px;
   top: 2444px;
-  
+ 
 }
 .stimg1 {
   position: absolute;
@@ -779,16 +782,16 @@ color: #0D606F;
     
   }
   .stimg3 {
-    position: absolute;
-    width: 400px;
-    height: 250px;
-    left: 120px;
-    margin-top: 480px;
-    
-    
-    
-    filter: drop-shadow(0px 4px 4px #0D606F);
-    border-radius: 16px;
+   /* position: absolute;*/
+width: 400px;
+height: 250px;
+left: 119px;
+top: calc(50% - 250px/2 + 1541.5px);
+margin-left: 119px;
+margin-top: 480px;
+margin-right: 40px;
+filter: drop-shadow(0px 4px 4px #0D606F);
+border-radius: 16px;
   }
   
   .h_st3 {
@@ -829,66 +832,69 @@ color: #0D606F;
     
   }
 
-/*p {
-  position: absolute;
-width: 760px;
-height: 184px;
-left: 560px;
-top: 2790px;
+  .stories4 {
+    /* position: absolute;*/
+    width: 1200px;
+    height: 250px;
+    left: 119px;
+    top: 3284px;
+    
+     
+   }
+   .stimg4 {
+    /* position: absolute;*/
+     width: 400px;
+     height: 250px;
+     left: 120px;
+     top: 2444px;
+     margin-top: 518px;
+    margin-left: 119px;
+     filter: drop-shadow(0px 4px 4px #0D606F);
+     border-radius: 16px;
+   }
+   
+   .h_st4 {
+    position: absolute;
+    width: 760px;
+    height: 42px;
+    left: 559px;
+    top: 3284px;
+    margin: auto;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    
+    
+    
+    color: #0D606F;
+   }
+   
+   .storis4_t {
+    position: absolute;
+    width: 760px;
+    height: 184px;
+    left: 559px;
+    top: 3350px;
+    margin: auto;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #0D606F;
+    
+     
+   }
 
-font-family: 'Aleo';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
+   .read {
+    color: #0D606F;
+    text-decoration: underline;
+   }
 
-color: #0D606F;
 
-}*/
-
-/*.stories_img {
-  position: absolute;
-width: 1445px;
-height: 1270px;
-left: 0px;
-top: 2404px;
-
-background: rgba(255, 255, 255, 0.7);
-}
-
-.stories1 {
-  position: absolute;
-width: 1200px;
-height: 250px;
-left: 120px;
-top: 2444px;
-}
-
-.stories2 {
-  position: absolute;
-width: 1200px;
-height: 250px;
-left: 120px;
-top: 2724px;
-}
-
-.stories3 {
-  position: absolute;
-  width: 1200px;
-  height: 250px;
-  left: 120px;
-  top: 3004px;
-
-}
-
-.stories4 {
-  position: absolute;
-  width: 1200px;
-  height: 250px;
-  left: 119px;
-  top: 3284px;
-
-}
 
 .stories_logo {
   display: flex;
@@ -918,18 +924,37 @@ top: 3688px;
 
 }
 
+
 .frame2 {
-  display: flex;
+display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
 gap: 20px;
+}
 
-position: absolute;
+
+.all_rig {
+/*position: absolute;*/
+width: 260px;
+height: 21px;
+left: 590px;
+top: 3695px;
+
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+margin: auto;
+color: #FFFFFF;
+
+}
+
+.soc {
+/*position: absolute;*/
 width: 140.96px;
 height: 33.65px;
 left: 1178px;
 top: 3688px;
-
 }
-
